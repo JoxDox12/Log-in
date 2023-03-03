@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Login/Register</title>
+        <link rel="stylesheet" href="..\CSS\style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link rel="icon" type="image/jpg" href="..\IMG\icon.png">
+    </head>
+    <body>
+        <div class="login-section">
+            <div class="formbox login">
+                <form action="">
+
+                    <h2>Log In</h2>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-envelope'></i>
+                        </span>
+                        <input type="email" placeholder="Email" required>
+                        <label for=""></label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt' id="lock"></i>
+                        </span>
+                        <input type="password" placeholder="Password" class="input_text" autocomplete="off" required>
+                        <label for=""></label>
+                    </div>
+                    <div class="remember-password">
+                        <label for=""><input type="checkbox">Remember me</label>
+                        <a href="">Forgot Password?</a>
+                    </div>
+                    <button class="btn">Log In</button>
+                    <div class="create-account">
+                        <p>Don't have an account? <a href="#" class="register-link">Sign in</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="formbox register">
+                <form action="">
+
+                    <h2>Sign in</h2>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-envelope'></i>
+                        </span>
+                        <input type="email" placeholder="Email" required>
+                        <label for=""></label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt' id="lock"></i>
+                        </span>
+                        <input type="password" placeholder="Password" class="passw" autocomplete="off" id="Input" required>
+                        <label for=""></label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class='bx bxs-lock-alt' id="lock"></i>
+                        </span>
+                        <input type="password" placeholder="Password" class="input_text" autocomplete="off" required>
+                        <label for=""></label>
+                    </div>
+                    <button class="btn">Sign In</button>
+                    <div class="create-account">
+                        <p>Already have an account? <a href="#" class="login-link">Log In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    <script src="..\JS\index.js"></script>
+    </body>
+</html>
